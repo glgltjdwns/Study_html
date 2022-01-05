@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tony(여기에 본인이름 넣기)</title>
+</head>
+
+<body>
+
+ <form action="./formResult.html" method="get" id="form" name="form">
+ 		<input type="text" id="nicrname" name="nicrname">
+ 		<input type="button" id="button" name="button" value="제출" onclick="here();">
+ 
+ 
+ 
+ </form>
+		<script type="text/javascript">
+			function here() {
+				alert("nickname: " + document.getElementById("nickname").value);	
+				document.getElementById("form").submit();
+			}
+		</script>
+
+
+</body>
+</html>

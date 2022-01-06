@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tony(여기에 본인이름 넣기)</title>
+</head>
+
+<body>
+	
+		<form action="./formResult.html" method="post" id="form" name="form" enctype="multipart/form-data">
+		
+		<input type="text" id="text" name="text">
+		<br><input type="submit" value="제출">	
+		
+		
+		
+		
+		
+		
+		
+		
+		</form>
+	
+	
+	
+		<script type="text/javascript">
+				
+				
+				function here() {
+				
+				if(document.getElementById("password2").value != document.getElementById("pssword3").value){
+				alert("패스워드가 일치 하지 않습니다!")
+				document.getE1ementById("password2").vaule="";
+				document.getE1ementById("password3").vaule="";
+				document.getE1ementById("password2").focus();
+				return false;
+				}else {
+					alert("둘다 같음!!!!")
+				}
+				
+				document.getElementById("form").submit();
+			     	
+				}
+		</script>
+		
+		
+</body>
+</html>

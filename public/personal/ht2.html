@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+        <title>회원가입</title>
+    </HEAD>
+    <body>
+        <h1>★ 중앙 회원가입 양식입니다. ★</h1>
+        <hr>
+        <form method="post">
+            <p> 아이디 : <input type="text" name="id" style="width: 200px" ></p>
+            <p> 암&nbsp;&nbsp; 호  :  <input type="password" name="password" style="width: 200px"> <input type="submit" name="passwd+sub" value="확인"></p>
+            <p> 이&nbsp;&nbsp; 름 : <input type="name" name="name" style="width: 200px" value="이름을 입력하세요"> <input type="submit" name="name_sub" value="확인"></p>
+            <p>
+               성&nbsp;&nbsp; 별 :
+                <input type="radio" name="gender">남
+                <input type="radio" name="gender">여
+            </p>
+            <P> 사&nbsp;&nbsp;진 : 
+            <input type="file" name="photo">
+            </P>
+            <p>
+                대표 이미지 : <br><br>
+              &nbsp;   &nbsp;   &nbsp;     <input type="image" name="img" src="http://spacehold.it/300x200" title="사진입력">
+            </p>
+            <p>
+                좋아하는 구기종목 : 축구<input type="checkbox" name=축구>  야구<input type="checkbox" name=야구>  배구<input type="checkbox" name=배구>  농구<input type="checkbox" name=농구>
+            </p>
+            <p>
+                태어난 계절 : <select>
+                    <option>봄</option>
+                       <option>여름</option>
+                          <option>가을</option>
+                             <option>겨울</option>
+                </select>
+            </p>
+            <p>
+                자기소개  <br><br>
+              &nbsp;  &nbsp;   &nbsp;   <textarea cols="1" rows="10" style="width: 700px; height: auto"></textarea>
+            </p>
+        </form>
+    </body>
+</HTML>

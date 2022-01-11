@@ -12,7 +12,7 @@
 
 
 <body>
-	<form action="" method="post" id="form" name="" enctype="multipart/form-bata">
+	<form action="" method="get" id="form" name="" enctype="multipart/form-bata">
 		아이디 : <input type="text" id="id1" name="id1">
 		<br>아이디 :<input type="text" id="" name="" size="50">
 		<br>아이디 : <input type="text" id="" name="" maxlength="20">
@@ -21,14 +21,32 @@
 		<br>아이디 : <input type="text" id="" name="" size="50" placeholder="" value="Sung Jun">
 		<br>아이디 : <input type="text" id="" name="" size="50" autofocus="autofocus">
 		
-		<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+		<br>아이디 : <input type="text" id="" name="" size="50" autofocus="autofocus" value="리리파" readonly>
+		<br>아이디 : <input type="text" id="" name="" size="50" autofocus="autofocus" value="리리파" disabled>
+		
+		<br>
+		<select disabled>
+		<option>1
+		<option>2
+		<option selected>3
+		
+		</select>
+			<p>여기부터 hidden</p>
+			<input type="hidden" id="" name="" value="">		
+			<p>여기까지hidden</p>
+		
+			
+			<br><input type="submit" name="submit">
+		<!-- <br><input type="button" id="button" name="button" value="제출" onclick="here();"> -->
+		
+		
 	</form>	 
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			function here() {
 				alert("id1: " + document.getElementById("id1").value);	
 				document.getElementById("form").submit();
 			}
-		</script>
+		</script> -->
 		
 		
 </body>
